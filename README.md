@@ -1,16 +1,14 @@
 # githook-lint-staged-example
 
+Git Hooks + Ling Staged.
 
+## Support
 
-## Install
+Setup githook during installing:
 
-Install with [npm](https://www.npmjs.com/):
-
-    npm install githook-lint-staged-example
-
-## Usage
-
-- [ ] Write usage instructions
+- npm@7: `npm install`
+- npm@6: `npm install`
+- yarn: `yarn install`
 
 ## Changelog
 
