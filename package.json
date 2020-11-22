@@ -1,0 +1,39 @@
+{
+  "name": "githook-lint-staged-example",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/azu/githook-lint-staged-example",
+  "bugs": {
+    "url": "https://github.com/azu/githook-lint-staged-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/githook-lint-staged-example.git"
+  },
+  "license": "MIT",
+  "author": "azu",
+  "main": "lib/githook-lint-staged-example.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
+    "prepare": "git config --local core.hooksPath .githook"
+  },
+  "prettier": {
+    "singleQuote": false,
+    "printWidth": 120,
+    "tabWidth": 4,
+    "trailingComma": "none"
+  },
+  "devDependencies": {
+    "lint-staged": "^10.5.1",
+    "prettier": "^2.2.0"
+  }
+}
