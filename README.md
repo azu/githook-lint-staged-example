@@ -1,6 +1,6 @@
 # githook-lint-staged-example
 
-Git Hooks + Ling Staged.
+Git Hooks + Ling Staged without extra dependencies.
 
 ## Support
 
