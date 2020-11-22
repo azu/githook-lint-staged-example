@@ -22,7 +22,7 @@
     "lib/"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node test.js && git add . && git commit -m test",
     "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
     "prepare": "git config --local core.hooksPath .githook"
   },
