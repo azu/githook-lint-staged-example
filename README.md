@@ -10,6 +10,13 @@ Setup githook during installing:
 - npm@6: `npm install`
 - yarn: `yarn install`
 
+This use `prepare` hook and setup githook directory to `.githook`
+
+```
+"prepare": "git config --local core.hooksPath .githook"
+```
+
+
 ## Changelog
 
 See [Releases page](https://github.com/azu/githook-lint-staged-example/releases).
